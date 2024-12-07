@@ -3,21 +3,34 @@ import React from "react";
 
 export default function Nav() {
     return <>
-        <div className="col-3">
-            <div className="list-group">
-                <Link href="/" className="list-group-item list-group-item-action">
-                    Home
-                </Link>
-                <Link href="/about" className="list-group-item list-group-item-action">
-                    About Us
-                </Link>
-                <Link href="/contact" className="list-group-item list-group-item-action">
-                    Contact Us
-                </Link>
+        <header className="bg-dark text-white py-3">
+            <div className="container">
+                {/* Main Navigation Bar */}
+                <div className="row align-items-center">
+                    <div className="col-md-4">
+                        <h1 className="text-white">BrandName</h1>
+                    </div>
+
+                    <div className="col-md-8">
+                        <nav>
+                            <ul className="nav justify-content-end">
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/">Home</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/about">About</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/contact">Contact</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/cart">Cart</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </div>
-            <p className="small text-danger text-center mt-3 text-warning">
-                Coffee: the magic potion that turns morning mayhem into midday clarity.
-            </p>
-        </div>
+        </header>
     </>
 }
