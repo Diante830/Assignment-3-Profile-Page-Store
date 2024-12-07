@@ -12,15 +12,15 @@ export default function Page() {
 
                 
                 <Header />
-                
-
+                <br></br>
+                <hr></hr>
                 <div className="col-9">
-                    <img className="d-block w-100 mb-3" src="https://fastly.picsum.photos/id/251/1280/720.jpg?hmac=YDyCcHsQDDzvzCfZ-MLi2fr2pFqpoH9OqSqmJFBwV7w" />
-                    <h1>Hello, I'm Diante! I am a Graphic Designer and Web Developer based in Toronto.</h1>
+                    
+                    <h1>About Me</h1>
                     <br></br>
                     <br></br>
                     <p>
-                        Hello! My name is Diante, and I'm a passionate Graphic Designer with a strong focus on UX/UI design, branding, motion graphics, and web development. I thrive on creating visually compelling and user-centered experiences that not only meet client needs but also resonate with their audience.
+                        I'm a passionate Graphic Designer with a strong focus on UX/UI design, branding, motion graphics, and web development. I thrive on creating visually compelling and user-centered experiences that not only meet client needs but also resonate with their audience.
                         <br></br>
                         <br></br>
                         In addition to my design expertise, I have a solid foundation in web development. This skill allows me to bridge the gap between design and functionality, ensuring that my designs are not only aesthetically pleasing but also practical and effective in real-world applications. I am proficient in HTML, CSS, and JavaScript, which enables me to create responsive and interactive web designs that enhance user engagement.
@@ -34,6 +34,10 @@ export default function Page() {
                         <br></br>
                         It's a pleasure to connect with you! I invite you to explore my portfolio, where you'll find examples of my work that reflect my dedication to design excellence and web development. I look forward to the possibility of collaborating and creating innovative solutions together. Thank you for taking the time to learn more about me!
                     </p>
+                    <br></br>
+                    <a href="/">
+                    <button>See Products</button>
+                    </a>
                 </div>
 
             </div>

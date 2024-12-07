@@ -8,7 +8,7 @@ export default function Nav() {
                 {/* Main Navigation Bar */}
                 <div className="row align-items-center">
                     <div className="col-md-4">
-                        <h1 className="text-white">BrandName</h1>
+                        <h1 className="text-white">Diante's Design Store</h1>
                     </div>
 
                     <div className="col-md-8">
