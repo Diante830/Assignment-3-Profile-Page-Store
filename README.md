@@ -20,7 +20,7 @@ The goal of this project is to build an interactive, visually appealing profile 
 
 I am a graphic designer and student web developer currently pursuing my studies in Front End Web Development at George Brown College. My goal is to combine my design skills with my development knowledge to create engaging and interactive digital experiences.
 
-## **Contact**
+## **Contact Me**
 
 Feel free to reach out to me if you have any questions or would like to discuss potential collaborations:
 
