@@ -15,7 +15,9 @@ export default function Products() {
                 </div>
                 <div className="Item__title">Blue Exodus Shirt</div>
                 <div className="Item__price">$ 29.25<br></br><br></br>
-                <button className="btn btn-primary">Add to Cart </button>
+                <a href="/cart">
+                <button className="btn btn-primary"> Add to Cart </button>
+                </a>
                 </div>
             </a>
         </div>
@@ -29,7 +31,9 @@ export default function Products() {
                 </div>
                 <div className="Item__title">Purple Exodus Shirt</div>
                 <div className="Item__price">$ 29.25<br></br><br></br>
-                <button className="btn btn-primary">Add to Cart </button>
+                <a href="/cart">
+                <button className="btn btn-primary"> Add to Cart </button>
+                </a>
                 </div>
             </a>
         </div>
@@ -43,7 +47,9 @@ export default function Products() {
                 </div>
                 <div className="Item__title">Orange Exodus Shirt</div>
                 <div className="Item__price">$ 29.25 <br></br><br></br>
+                <a href="/cart">
                 <button className="btn btn-primary"> Add to Cart </button>
+                </a>
                 </div>
             </a>
         </div>
