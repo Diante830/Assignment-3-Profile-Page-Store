@@ -7,11 +7,10 @@ import Footer from "../components/footer"
 export default function Page() {
     return <>
         <Nav />
+        
         <div className="container py-4">
             <div className="row">
 
-                
-                <Header />
                 <br></br>
                 <hr></hr>
                 <div className="col-9">

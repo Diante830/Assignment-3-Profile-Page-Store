@@ -1,8 +1,9 @@
 import React from "react";
-import Header from "./components/header";
-import Nav from "./components/nav";
-import Footer from "./components/footer";
-import Products from "./components/products"
+import Apparel from "../components/apparel";
+import Header from "../components/header";
+import Nav from "../components/nav";
+import Footer from "../components/footer";
+
 
 export default function Page() {
     return <>
@@ -19,7 +20,7 @@ export default function Page() {
                         <li><a href="/apparel">Apparel</a></li>
                     </ul>
                 </div>
-                <Products />
+                <Apparel />
 
             </div>
         </div>

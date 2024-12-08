@@ -66,3 +66,33 @@
     transform: scale(1.0); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
+
+.navbar-2 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: helvetica;
+}
+
+.navbar-2 li {
+    margin: 0 15px;
+}
+
+.navbar-2 a {
+    text-decoration: none;
+    color: var(--nav-text);
+    font-size: 18px;
+    font-family: helvetica;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-2 a:hover {
+    background-color: none;
+    color: #9ECAE7;
+    border-radius: 4px;
+}
+

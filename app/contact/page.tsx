@@ -13,7 +13,7 @@ export default function Page() {
                 <hr />
 
                 <div className="col-9">
-                    <h1>Contact Us</h1>
+                    <h1>Contact Me</h1>
                     <p>
                         Based in Toronto, ON
                         <br></br>
