@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Nav() {
     return <>
-        <header className="bg-dark text-white py-3">
+        <header style={{ backgroundColor: '#2D457D', color: '#fff', padding: '1rem 0' }}>
             <div className="container">
                 {/* Main Navigation Bar */}
                 <div className="row align-items-center">

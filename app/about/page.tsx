@@ -36,7 +36,7 @@ export default function Page() {
                     </p>
                     <br></br>
                     <a href="/">
-                    <button>See Products</button>
+                    <button className="btn btn-primary">See Products </button>
                     </a>
                 </div>
 

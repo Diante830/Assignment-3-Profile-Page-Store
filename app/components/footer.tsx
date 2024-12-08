@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white py-5">
+    <footer style={{ backgroundColor: '#2D457D', color: '#fff' , padding: '3rem 0'}}>
             <div className="container">
                 <div className="row">
                     {/* Fast Delivery Section */}

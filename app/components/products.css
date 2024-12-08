@@ -1,0 +1,68 @@
+.Items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.Item {
+    padding: 20px 0;
+    width: 30%;
+    transition: box-shadow, 0.4s, ease-in-out;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #e4e4e4;
+    border-radius: 12px;
+}
+
+@media (max-width: 1050px) {
+    .Item {
+        width: 48%;
+    }
+}
+
+@media (max-width: 600px) {
+    .Item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.Item__link {
+    text-decoration: none;
+}
+
+.Item__title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    color: #555;
+    width: 90%;
+    margin: 20px auto 0;
+}
+
+.Item__price {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: #777;
+}
+
+.ImageContainer {
+    width: 100%;
+    height: auto;
+}
+
+.Image {
+    width: 100%;
+    height: auto;
+}
+
+.Item:hover {
+    transform: scale(1.0); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
