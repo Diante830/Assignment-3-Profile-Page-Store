@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-This project is a personal profile page designed to showcase and sell my own graphic design projects. It includes a selection of journals, tote bags, and t-shirts that I have personally designed. Built using React Next.js, this page will serve as an online portfolio and store, where potential buyers can view and purchase my creations.
+This project is a personal profile page designed to showcase and sell my own graphic design projects. It includes a selection of journals, tote bags, and t-shirts that I have personally designed. Built using React and Bootstrap, this page will serve as an online portfolio and store, where potential buyers can view and purchase my creations.
 
 ## **Objective**
 
@@ -15,6 +15,27 @@ The goal of this project is to build an interactive, visually appealing profile 
 - **Product Details**: Each product will have a dedicated page showing detailed images, descriptions, prices, and size options.
 - **Cart System**: A simple, demonstration-only cart feature where users can add products to their cart.
 - **Responsive Design**: The page will adapt to different screen sizes, ensuring a seamless experience on both desktop and mobile devices.
+
+## Setup and Installation
+
+To get the project up and running locally, follow these steps:
+
+### Prerequisites
+Ensure you have the following installed:
+
+- React js
+- bootstrap
+
+### 1. Clone the Repository
+First, clone the repository to your local machine:
+
+### How to Use This:
+
+1. **Create a new file** called `README.md` in the root of your GitHub repository if it doesn't exist already.
+2. **Copy and paste** the above Markdown code into the `README.md` file.
+3. **Commit and push** this file to your GitHub repository.
+
+This will provide all necessary details, including setup instructions and project information, in your GitHub repository's README file.
 
 ## **About Me**
 
