@@ -7,7 +7,7 @@ export default function Products() {
         <div className="Items">
 
             <div className="Item">
-                <a href="/book" className="Item__link">
+                <a href="order.html" className="Item__link">
                     <div className="ImageContainer">
                         <img src="/images/1merchbooks.png"
                             alt="PinkNotebook" className="Image" />
@@ -22,7 +22,7 @@ export default function Products() {
             </div>
 
             <div className="Item">
-                <a href="/book" className="Item__link">
+                <a href="order.html" className="Item__link">
                     <div className="ImageContainer">
                         <img src="/images/2merchbooks.png"
                             alt="BlueNotebook" className="Image" />
@@ -37,7 +37,7 @@ export default function Products() {
             </div>
 
             <div className="Item">
-                <a href="/tote" className="Item__link">
+                <a href="order.html" className="Item__link">
                     <div className="ImageContainer">
                         <img src="/images/bag1.png"
                             alt="CanvasBag" className="Image" />
@@ -52,7 +52,7 @@ export default function Products() {
             </div>
 
             <div className="Item">
-                <a href="/tote"
+                <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
                         <img src={"/images/bag3.png"}
@@ -68,7 +68,7 @@ export default function Products() {
             </div>
 
             <div className="Item">
-                <a href="/tote"
+                <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
                         <img src="/images/bag4.png"
