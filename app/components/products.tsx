@@ -55,7 +55,7 @@ export default function Products() {
                 <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
-                        <img src="/images/bag3.png"
+                        <img src={"/images/bag3.png"}
                             alt="CanvasBag" className="Image" />
                     </div>
                     <div className="Item__title">Pink Burnsby Tote</div>
