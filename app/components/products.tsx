@@ -1,15 +1,5 @@
 import React from "react";
 import './products.css';
-import bag3 from "../../public/images/bag3.png";
-import merchbooks1 from "../../public/images/1merchbooks.png";
-import merchbooks2 from "../public/images/2merchbooks.png";
-import bag1 from "../public/images/bag1.png";
-import bag4 from "../public/images/bag4.png";
-import bag5 from "../public/images/bag5.png";
-import shirt1 from "../public/images/shirt1.png";
-import shirt2 from "../public/images/shirt2.png";
-import shirt3 from "../public/images/shirt3.png";
-import Image from "next/image";
 
 export default function Products() {
     return <>
@@ -19,7 +9,7 @@ export default function Products() {
             <div className="Item">
                 <a href="order.html" className="Item__link">
                     <div className="ImageContainer">
-                        <Image src={merchbooks1}
+                        <img src="./images/1merchbooks.png"
                             alt="PinkNotebook" className="Image" />
                     </div>
                     <div className="Item__title">Pink Burnsby Notebook</div>
@@ -34,7 +24,7 @@ export default function Products() {
             <div className="Item">
                 <a href="order.html" className="Item__link">
                     <div className="ImageContainer">
-                        <Image src={merchbooks2}
+                        <img src="./images/2merchbooks.png"
                             alt="BlueNotebook" className="Image" />
                     </div>
                     <div className="Item__title">Blue Burnsby Notebook</div>
@@ -49,7 +39,7 @@ export default function Products() {
             <div className="Item">
                 <a href="order.html" className="Item__link">
                     <div className="ImageContainer">
-                        <Image src={bag1}
+                        <img src="./images/bag1.png"
                             alt="CanvasBag" className="Image" />
                     </div>
                     <div className="Item__title">Red Burnsby Tote</div>
@@ -65,7 +55,7 @@ export default function Products() {
                 <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
-                        <Image src={bag3}
+                        <img src={"./images/bag3.png"}
                             alt="CanvasBag" className="Image" />
                     </div>
                     <div className="Item__title">Pink Burnsby Tote</div>
@@ -81,7 +71,7 @@ export default function Products() {
                 <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
-                        <Image src={bag4}
+                        <img src="./images/bag4.png"
                             alt="CanvasBag" className="Image" />
                     </div>
                     <div className="Item__title">Yellow Burnsby Tote</div>
@@ -97,7 +87,7 @@ export default function Products() {
                 <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
-                        <Image src={bag5}
+                        <img src="./images/bag5.png"
                             alt="CanvasBag" className="Image" />
                     </div>
                     <div className="Item__title">Blue Burnsby</div>
@@ -113,7 +103,7 @@ export default function Products() {
                 <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
-                        <Image src={shirt1}
+                        <img src="./images/shirt1.png"
                             alt="T-Shirt" className="Image" />
                     </div>
                     <div className="Item__title">Blue Exodus Shirt</div>
@@ -129,7 +119,7 @@ export default function Products() {
                 <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
-                        <Image src={shirt2}
+                        <img src="./images/shirt2.png"
                             alt="T-Shirt" className="Image" />
                     </div>
                     <div className="Item__title">Purple Exodus Shirt</div>
@@ -145,7 +135,7 @@ export default function Products() {
                 <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
-                        <Image src={shirt3}
+                        <img src="./images/shirt3.png"
                             alt="T-Shirt" className="Image" />
                     </div>
                     <div className="Item__title">Orange Exodus Shirt</div>
