@@ -9,7 +9,7 @@ export default function Products() {
             <div className="Item">
                 <a href="order.html" className="Item__link">
                     <div className="ImageContainer">
-                        <img src="/images/1merchbooks.png"
+                        <img src="./images/1merchbooks.png"
                             alt="PinkNotebook" className="Image" />
                     </div>
                     <div className="Item__title">Pink Burnsby Notebook</div>
@@ -24,7 +24,7 @@ export default function Products() {
             <div className="Item">
                 <a href="order.html" className="Item__link">
                     <div className="ImageContainer">
-                        <img src="/images/2merchbooks.png"
+                        <img src="./images/2merchbooks.png"
                             alt="BlueNotebook" className="Image" />
                     </div>
                     <div className="Item__title">Blue Burnsby Notebook</div>
@@ -39,7 +39,7 @@ export default function Products() {
             <div className="Item">
                 <a href="order.html" className="Item__link">
                     <div className="ImageContainer">
-                        <img src="/images/bag1.png"
+                        <img src="./images/bag1.png"
                             alt="CanvasBag" className="Image" />
                     </div>
                     <div className="Item__title">Red Burnsby Tote</div>
@@ -55,7 +55,7 @@ export default function Products() {
                 <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
-                        <img src={"/images/bag3.png"}
+                        <img src={"./images/bag3.png"}
                             alt="CanvasBag" className="Image" />
                     </div>
                     <div className="Item__title">Pink Burnsby Tote</div>
@@ -71,7 +71,7 @@ export default function Products() {
                 <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
-                        <img src="/images/bag4.png"
+                        <img src="./images/bag4.png"
                             alt="CanvasBag" className="Image" />
                     </div>
                     <div className="Item__title">Yellow Burnsby Tote</div>
@@ -87,7 +87,7 @@ export default function Products() {
                 <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
-                        <img src="/images/bag5.png"
+                        <img src="./images/bag5.png"
                             alt="CanvasBag" className="Image" />
                     </div>
                     <div className="Item__title">Blue Burnsby</div>
@@ -103,7 +103,7 @@ export default function Products() {
                 <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
-                        <img src="/images/shirt1.png"
+                        <img src="./images/shirt1.png"
                             alt="T-Shirt" className="Image" />
                     </div>
                     <div className="Item__title">Blue Exodus Shirt</div>
@@ -119,7 +119,7 @@ export default function Products() {
                 <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
-                        <img src="/images/shirt2.png"
+                        <img src="./images/shirt2.png"
                             alt="T-Shirt" className="Image" />
                     </div>
                     <div className="Item__title">Purple Exodus Shirt</div>
@@ -135,7 +135,7 @@ export default function Products() {
                 <a href="order.html"
                     className="Item__link">
                     <div className="ImageContainer">
-                        <img src="/images/shirt3.png"
+                        <img src="./images/shirt3.png"
                             alt="T-Shirt" className="Image" />
                     </div>
                     <div className="Item__title">Orange Exodus Shirt</div>

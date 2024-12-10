@@ -15,16 +15,16 @@ export default function Nav() {
                         <nav>
                             <ul className="nav justify-content-end">
                                 <li className="nav-item">
-                                    <a className="nav-link text-white" href="/">Home</a>
+                                    <a className="nav-link text-white" href="./">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-white" href="/about">About</a>
+                                    <a className="nav-link text-white" href="./about">About</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-white" href="/contact">Contact</a>
+                                    <a className="nav-link text-white" href="./contact">Contact</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-white" href="/cart">Cart</a>
+                                    <a className="nav-link text-white" href="./cart">Cart</a>
                                 </li>
                             </ul>
                         </nav>
