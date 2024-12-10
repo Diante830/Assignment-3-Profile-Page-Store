@@ -15,16 +15,16 @@ export default function Page() {
 
                 <div className="nav-sort">
                     <ul className="navbar-2">
-                        <li><a href="/">All</a></li>
-                        <li><a href="/brands">Branding</a></li>
-                        <li><a href="/apparel">Apparel</a></li>
+                        <li><a href="./">All</a></li>
+                        <li><a href="./brands">Branding</a></li>
+                        <li><a href="./apparel">Apparel</a></li>
                     </ul>
                 </div>
 
             </div>
             <div className="product-details">
                 <div className="product-image">
-                    <img src="/images/bag1.png" alt="Image" />
+                    <img src="./images/bag1.png" alt="Image" />
                 </div>
                 <div className="product-info">
                     <h2>Red Burnsby Tote Bag</h2>
@@ -40,7 +40,7 @@ export default function Page() {
                             min="1"
                         />
                     </div>
-                    <a href="/cart">
+                    <a href="./cart">
                     <button className="btn btn-primary"> Add to Cart
                     </button>
                     </a>

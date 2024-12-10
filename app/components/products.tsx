@@ -14,7 +14,7 @@ export default function Products() {
                     </div>
                     <div className="Item__title">Pink Burnsby Notebook</div>
                     <div className="Item__price">$ 10.87<br></br><br></br>
-                        <a href="/cart">
+                        <a href="./cart">
                             <button className="btn btn-primary"> Add to Cart </button>
                         </a>
                     </div>
@@ -29,7 +29,7 @@ export default function Products() {
                     </div>
                     <div className="Item__title">Blue Burnsby Notebook</div>
                     <div className="Item__price">$ 10.87<br></br><br></br>
-                        <a href="/cart">
+                        <a href="./cart">
                             <button className="btn btn-primary"> Add to Cart </button>
                         </a>
                     </div>
@@ -44,7 +44,7 @@ export default function Products() {
                     </div>
                     <div className="Item__title">Red Burnsby Tote</div>
                     <div className="Item__price">$ 23.19<br></br><br></br>
-                        <a href="/cart">
+                        <a href="./cart">
                             <button className="btn btn-primary"> Add to Cart </button>
                         </a>
                     </div>
@@ -60,7 +60,7 @@ export default function Products() {
                     </div>
                     <div className="Item__title">Pink Burnsby Tote</div>
                     <div className="Item__price">$ 23.25<br></br><br></br>
-                        <a href="/cart">
+                        <a href="./cart">
                             <button className="btn btn-primary"> Add to Cart </button>
                         </a>
                     </div>
@@ -76,7 +76,7 @@ export default function Products() {
                     </div>
                     <div className="Item__title">Yellow Burnsby Tote</div>
                     <div className="Item__price">$ 21.06<br></br><br></br>
-                        <a href="/cart">
+                        <a href="./cart">
                             <button className="btn btn-primary"> Add to Cart </button>
                         </a>
                     </div>
@@ -92,7 +92,7 @@ export default function Products() {
                     </div>
                     <div className="Item__title">Blue Burnsby</div>
                     <div className="Item__price">$ 23.25<br></br><br></br>
-                        <a href="/cart">
+                        <a href="./cart">
                             <button className="btn btn-primary"> Add to Cart </button>
                         </a>
                     </div>
@@ -108,7 +108,7 @@ export default function Products() {
                     </div>
                     <div className="Item__title">Blue Exodus Shirt</div>
                     <div className="Item__price">$ 29.25<br></br><br></br>
-                        <a href="/cart">
+                        <a href="./cart">
                             <button className="btn btn-primary"> Add to Cart </button>
                         </a>
                     </div>
@@ -124,7 +124,7 @@ export default function Products() {
                     </div>
                     <div className="Item__title">Purple Exodus Shirt</div>
                     <div className="Item__price">$ 29.25<br></br><br></br>
-                        <a href="/cart">
+                        <a href="./cart">
                             <button className="btn btn-primary"> Add to Cart </button>
                         </a>
                     </div>
@@ -140,7 +140,7 @@ export default function Products() {
                     </div>
                     <div className="Item__title">Orange Exodus Shirt</div>
                     <div className="Item__price">$ 29.25 <br></br><br></br>
-                        <a href="/cart">
+                        <a href="./cart">
                             <button className="btn btn-primary"> Add to Cart </button>
                         </a>
                     </div>

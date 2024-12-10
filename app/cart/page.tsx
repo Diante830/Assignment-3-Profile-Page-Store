@@ -13,7 +13,7 @@ export default function Page() {
         <h1>Your Shopping Cart</h1>
         <div className="cart-items">
           <div className="cart-item">
-            <img src="/images/bag1.png" alt="Product 1" className="cart-item-image" />
+            <img src="./images/bag1.png" alt="Product 1" className="cart-item-image" />
             <div className="cart-item-details">
               <h3>Red Burnsby Tote</h3>
               <p>$23.19</p>
@@ -25,7 +25,7 @@ export default function Page() {
           </div>
 
           <div className="cart-item">
-            <img src="/images/bag3.png" alt="Product 2" className="cart-item-image" />
+            <img src="./images/bag3.png" alt="Product 2" className="cart-item-image" />
             <div className="cart-item-details">
               <h3>Pink Burnsby Tote</h3>
               <p>$46.50</p>

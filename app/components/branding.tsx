@@ -7,14 +7,14 @@ export default function Products() {
        <div className="Items">
 
         <div className="Item">
-            <a href="order.html" className="Item__link">
+            <a href="./book" className="Item__link">
                 <div className="ImageContainer">
-                    <img src="/images/1merchbooks.png"
+                    <img src="./images/1merchbooks.png"
                         alt="PinkNotebook" className="Image"/>
                 </div>
                 <div className="Item__title">Pink Burnsby Notebook</div>
                 <div className="Item__price">$ 10.87<br></br><br></br>
-                <a href="/cart">
+                <a href="./cart">
                 <button className="btn btn-primary"> Add to Cart </button>
                 </a>
                 </div>
@@ -22,14 +22,14 @@ export default function Products() {
         </div>
 
         <div className="Item">
-            <a href="order.html" className="Item__link">
+            <a href="./book" className="Item__link">
                 <div className="ImageContainer">
-                    <img src="/images/2merchbooks.png"
+                    <img src="./images/2merchbooks.png"
                         alt="BlueNotebook" className="Image"/>
                 </div>
                 <div className="Item__title">Blue Burnsby Notebook</div>
                 <div className="Item__price">$ 10.87<br></br><br></br>
-                <a href="/cart">
+                <a href="./cart">
                 <button className="btn btn-primary"> Add to Cart </button>
                 </a>
                 </div>
@@ -37,14 +37,14 @@ export default function Products() {
         </div>
 
         <div className="Item">
-            <a href="order.html" className="Item__link">
+            <a href="./tote" className="Item__link">
                 <div className="ImageContainer">
-                    <img src="/images/bag1.png"
+                    <img src="./images/bag1.png"
                         alt="CanvasBag" className="Image"/>
                 </div>
                 <div className="Item__title">Red Burnsby Tote</div>
                 <div className="Item__price">$ 23.19<br></br><br></br>
-                <a href="/cart">
+                <a href="./cart">
                 <button className="btn btn-primary"> Add to Cart </button>
                 </a>
                 </div>
@@ -52,15 +52,15 @@ export default function Products() {
         </div>
 
         <div className="Item">
-            <a href="order.html"
+            <a href="./tote"
                 className="Item__link">
                 <div className="ImageContainer">
-                    <img src="/images/bag3.png"
+                    <img src="./images/bag3.png"
                         alt="CanvasBag" className="Image"/>
                 </div>
                 <div className="Item__title">Pink Burnsby Tote</div>
                 <div className="Item__price">$ 23.25<br></br><br></br>
-                <a href="/cart">
+                <a href="./cart">
                 <button className="btn btn-primary"> Add to Cart </button>
                 </a>
                 </div>
@@ -68,15 +68,15 @@ export default function Products() {
         </div>
 
         <div className="Item">
-            <a href="order.html"
+            <a href="./tote"
                 className="Item__link">
                 <div className="ImageContainer">
-                    <img src="/images/bag4.png"
+                    <img src="./images/bag4.png"
                         alt="CanvasBag" className="Image"/>
                 </div>
                 <div className="Item__title">Yellow Burnsby Tote</div>
                 <div className="Item__price">$ 21.06<br></br><br></br>
-                <a href="/cart">
+                <a href="./cart">
                 <button className="btn btn-primary"> Add to Cart </button>
                 </a>
                 </div>
@@ -84,15 +84,15 @@ export default function Products() {
         </div>
 
         <div className="Item">
-            <a href="order.html"
+            <a href="./tote"
                 className="Item__link">
                 <div className="ImageContainer">
-                    <img src="/images/bag5.png"
+                    <img src="./images/bag5.png"
                         alt="CanvasBag" className="Image"/>
                 </div>
                 <div className="Item__title">Blue Burnsby</div>
                 <div className="Item__price">$ 23.25<br></br><br></br>
-                <a href="/cart">
+                <a href="./cart">
                 <button className="btn btn-primary"> Add to Cart </button>
                 </a>
                 </div>
